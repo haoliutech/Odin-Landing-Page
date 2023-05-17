@@ -1,0 +1,253 @@
+
+
+ul.header-list {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    margin: 0 6em;
+    align-items: center;
+    /*font color white*/
+    color: #E5E7EB;
+    
+}
+
+div.information{
+    background-color: white;
+    padding: 16px;
+    margin: 0;
+
+}
+
+p.information{
+    text-align: center;
+    font-family: "Days One";
+    font-size: 20px;
+    /*font color white*/
+    color: black;
+}
+
+figure {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 1em;
+}
+
+img.information{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+}
+
+
+div.content {
+    display: flex;
+    flex-direction: row;
+    padding: 20 16px;
+    margin: 3em 7em;
+}
+div.column {
+    display: flex;
+    margin: 0 1em;
+    align-items: center;
+}
+
+button{
+    /*round corners*/
+    border-radius: 12px;
+    font-family: "Audiowide", sans-serif;
+    font-size: medium;
+}
+
+button:hover{
+    background-color: #2e83c1;
+    color: white;
+}
+
+button.hero-button{
+    width: 200px;
+    height: 100px;
+}
+
+button.call-to-action-button{
+    width: 50%;
+    height: 40%;
+    float: right;
+}
+
+div.white-background {
+    background-color: white;
+    margin: 10 100em;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.column{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+div.row{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 1em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+p.call-to-action-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 0;
+    
+}
+
+p.call-to-action-text {
+    font-size: 20px;
+    margin-top: 0em;
+    margin-left: 3em;
+}
+
+div.call-to-action {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    margin: 0 2em;
+    font-family: "Days One";
+    color: white;
+    background-color: #2e83c1;
+}
+
+
+p.title {
+    font-family: "Mandalore Regular";
+    font-size: 40px;
+    /*font color white*/
+    color: #E5E7EB;
+}
+
+div.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #F9FAF8;
+    margin: 0 2em;
+}
+
+p.hero-main-text {
+    font-family: "Days One";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+}
+
+p.hero-secondary-text {
+    font-family: "Days One";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+div.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 0 1em;
+}
+
+li.logo {
+    flex-direction: row;
+    margin-right: auto;
+    font-family: 'Mandalore Regular';
+    font-size: 35px;
+    white-space: nowrap;
+}
+
+
+
+a.header-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #E5E7EB;
+    font-family: "Audiowide", sans-serif;
+}
+
+img.header-logo{
+    width: 20%;
+    height: auto;
+}
+
+img.hero-image{
+    width: 80%;
+    height: auto;
+    padding: 16px 16px;
+    margin: 0 6em;
+    float: right;
+}
+
+svg.heaer-logo{
+    height: 50px;
+    width: 50px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+}
+
+div.quote-block {
+    background-color: #dddee2;
+    margin: 10 100em;
+    padding: 100px;
+}
+p.quote{
+    font-family: "Mandalore Laser Italic Regular";
+    font-size: 40px;
+    /*font color white*/
+    color: black;
+    text-align: center;
+}
+figcaption.quote{
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    /*font color white*/
+    color: black;
+    text-align: center;
+    text-indent: 250px;
+}
+
+figcaption.info{
+    font-family: "Days One", sans-serif;
+    font-size: 20px;
+    /*font color white*/
+    color: black;
+    text-align: left;
+    text-indent: 250px;
+}
+
+footer{
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 70px;
+
+}
